@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Trung Hiếu</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src = "https: // unkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js "></script>
+</head>
+<body>
+    <center>
+        <img src="img/img1.jpg" alt=""  class="avatar">
+        <h3 class="name">Lê Trung Hiếu</h3>
+        
+        <div class="link">
+            <button class="btn" onclick="location.href = 'https://www.facebook.com/profile.php?id=100013434556519' "><ion-icon name="logo-facebook" class="icon"></ion-icon> Facebook</button><br>
+            <button class="btn" onclick="location.href = 'https://www.instagram.com/self.trung_hieu/'"><ion-icon name="logo-instagram" class="icon"></ion-icon> Instagram</button><br>
+            <button class="btn" onclick="location.href = 'https://zalo.me/0917657006'"><img src="https://img.icons8.com/ios/18.5/000000/zalo.png" class="zalo"> Zalo</button><br>
+            <button class="btn root gmail" ><ion-icon name="mail-outline" class="icon"></ion-icon> Gmail</button><br>
+                <script>
+                    var hoverBtn = document.querySelector('.root')
+                    var gmailName = document.querySelector('.gmail')
+                    var isGmail = true
+                    hoverBtn.onclick = function() {
+                        if (isGmail) {
+                            gmailName.innerText = 'hieult.hust170703@gmail.com'
+                            isGmail = false;
+                        }
+                        else {
+                            gmailName.innerText =  'Gmail'
+                            isGmail = true;
+                        }
+                    }
+
+                </script>
+            <button class="btn" onclick="location.href = 'https://www.tiktok.com/@hieu.lthust_17'"><ion-icon name="logo-tiktok" class="icon"></ion-icon> TikTok</button><br>
+            <button class="btn" onclick="location.href = 'https://www.youtube.com/channel/UCGg7hhiZYF2L1zh1Mlvtoiw/videos'"><ion-icon name="logo-youtube" class="icon"></ion-icon> Youtube</button>
+        </div>
+    </center>
+    
+</body>
+</html>
